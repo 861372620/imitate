@@ -1,0 +1,46 @@
+/* CSS Document */
+#footer{
+	background:url("../images/bg_flink.png");
+	background-size:100% 100%;
+	padding:10px 70px 35px 70px;
+	height:180px;
+}
+#footer ul li{
+	width:130px;
+	float:left;
+	height:30px;
+	line-height:30px;
+	color:white;
+	cursor: pointer;
+	text-align: center;
+}
+#footer ul:nth-of-type(1){
+	float:left;
+}
+#footer ul:nth-of-type(2){
+	float:right;
+}
+#footer ul li ul li:nth-of-type(5){
+	margin-left:0;
+}
+#footer ul li{
+	color:white;
+}
+#footer ul li{
+	font-weight:bold;
+	font-size:14px;
+}
+#footer ul li ul li{
+	font-weight:normal;
+	font-size:13px;
+}
+/* 下面是record样式 */
+#record{
+	background:black;
+	font-size:13px;
+	color:white;
+	text-align:center;
+	font-weight:bold;
+	height:60px;
+	line-height:50px;
+}
